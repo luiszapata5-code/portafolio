@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Documento HTML5. Esta línea indica al navegador que use el estándar moderno. -->
+<html lang="es">
+<head>
+
+ 
+  <!-- Metadatos y recursos que no se muestran directamente en la página. -->
+  <meta charset="UTF-8">
+  <!-- Codificación de caracteres para mostrar correctamente texto en español. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ajuste para dispositivos móviles y diseño responsivo. -->
+  <meta name="description" content="Portafolio de Luis Zapata — Desarrollador Full Stack">
+  <!-- Descripción para motores de búsqueda y tarjetas sociales. -->
+  <title>Luis Zapata · Dev</title>
+  <!-- Título que aparece en la pestaña del navegador. -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Enlace a la hoja de estilos externa. -->
+
+<meta name="description" content="Portafolio de Luis Zapata">
+<meta name="author" content="Luis Zapata">
+<meta property="og:title" content="Luis Zapata · Dev">
+<meta property="og:description" content="Full Stack developer">
+<meta property="og:type" content="website">
+
+
+</head>
+<body>
+  <!-- Cuerpo visible de la página. -->
+  <header>
+    <!-- Encabezado principal de la página; aporta estructura semántica para buscadores y lectores de pantalla. -->
+    <nav>
+      <!-- Área de navegación con enlaces internos. -->
+      <span class="logo">Luis.dev</span>
+      <!-- Nombre de marca o logo. -->
+      <ul>
+        <!-- Lista de elementos de navegación. -->
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Contenido principal de la web. Usar <main> es preferible a un contenedor genérico como <div>. -->
+    <section id="hero">
+      <!-- Sección principal de presentación o "hero" del portafolio. -->
+      <h1>Hola, soy <span class="highlight">Luis Zapata</span></h1>
+      <!-- Título principal con el nombre destacado. -->
+      <p>Estudiante de Ingeniería · Futuro dev Full Stack</p>
+      <!-- Texto de introducción. -->
+      <a href="#proyectos" class="btn">Ver proyectos</a>
+      <!-- Enlace de llamada a la acción. -->
+    </section>
+    <section id="sobre-mi">
+      <!-- Sección de información personal. -->
+      <h2>Sobre mí</h2>
+      <!-- Subtítulo de la sección. -->
+      <p>Estudiante de tercer semestre aprendiendo Full Stack para especializarme en Cloud o Ciberseguridad.</p>
+      <!-- Descripción del perfil educativo y profesional. -->
+    </section>
+    <section id="proyectos">
+      <!-- Sección que muestra los proyectos destacados. -->
+      <h2>Proyectos</h2>
+      <!-- Título de la sección de proyectos. -->
+      <article class="card">
+        <!-- Proyecto individual como artículo independiente. -->
+        <h3>Buscador GitHub</h3>
+        <!-- Nombre del proyecto. -->
+        <p>App que consume la API de GitHub. HTML, CSS y JS vanilla con módulos ES6.</p>
+        <!-- Breve descripción de la tecnología usada. -->
+        <a href="https://luiszapata5-code.github.io/buscador-github" target="_blank">Ver proyecto</a>
+        <!-- Enlace externo al proyecto alojado. -->
+      </article>
+    </section>
+    <section id="contacto">
+      <!-- Sección para los datos de contacto. -->
+      <h2>Contacto</h2>
+      <!-- Título de contacto. -->
+      <a href="https://github.com/luiszapata5-code" target="_blank">GitHub</a>
+      <!-- Enlace al perfil de GitHub. -->
+    </section>
+  </main>
+  <footer>
+    <!-- Pie de página con créditos y fecha. -->
+    <p>Hecho con curiosidad por Luis Zapata · <time datetime="2026">2026</time></p>
+    <!-- Fecha marcada con el elemento <time> para mayor semántica. -->
+  </footer>
+  <script src="js/app.js"></script>
+  <!-- Archivo JavaScript que añade comportamiento a la página. -->
+</body>
+</html>
